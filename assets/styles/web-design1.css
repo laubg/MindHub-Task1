@@ -1,0 +1,29 @@
+*{
+margin: 0;
+padding:0;
+box-sizing: border-box;
+
+}
+
+.img{
+    display: none;
+}
+
+h2{
+color: white;
+background-color: black;
+text-align: center;
+}
+
+p{
+    text-indent: 15px;
+}
+
+
+a{
+ display: block;
+ height: 50px; 
+ /* background-color: blue;   */
+ margin-top: 20px;
+ padding: 20px;
+}
