@@ -19,22 +19,23 @@ font-family: 'Roboto', sans-serif;
 
 }
 
-header{
+/* header{
     background-color: rgba(91, 95, 22, 0.751);
     
-}
+} */
 
 h1{
     position:absolute;
     top:234px;
     font-size: 70px;
-    color: black;
-    text-shadow: 3px 2px 2px white;
-        /* text-align: center; */
-    /* background-color: blueviolet; */
+    color: #F2D230;
+    -webkit-text-stroke: 1px #D98D30;
+    text-shadow: 3px 2px 2px #63A69A;
     display:inline-block !important;
     padding-left: 50px;
     font-family: 'Oswald', sans-serif;
+    background-color:white;
+    padding-right: 20px;
 }
 
 .logo{
@@ -51,7 +52,7 @@ h1{
 nav{
     display: inline-block;
     width: 160px;
-    background-color: blue;
+    /* background-color: blue; */
     position:relative;
     top:0px;
     font-family: 'Roboto', sans-serif;
@@ -59,7 +60,7 @@ nav{
 .nav-about{
     display: inline-block;
     width: 160px;
-    background-color: blue;
+    /* background-color: blue; */
     position:relative;
     top:-82px;
     font-family: 'Roboto', sans-serif;
@@ -88,7 +89,7 @@ p{
     text-indent: 15px;
     padding: 5px 0px 10px;
     font-family: 'Roboto', sans-serif;
-    display:inline-block !important;
+    display:inline-block;
     width: 100%;
 }
 
@@ -96,11 +97,10 @@ p{
 .texto{
     display:inline-block;
     width: 854px;
-    background-color: rgb(225, 255, 0);
+    /* background-color: rgb(225, 255, 0); */
     padding: 20px;
     margin-top: 0;
     position: relative;
-    /* top: 175px; */
     font-family: 'Roboto', sans-serif;
     right: 0px;
     top:0px;
@@ -110,11 +110,10 @@ p{
 .texto-home{
     display:inline-block;
     width: 854px;
-    background-color: rgb(225, 255, 0);
+    /* background-color: rgb(225, 255, 0); */
     padding: 20px;
     margin-top: 0;
     position: relative;
-    /* top: 175px; */
     font-family: 'Roboto', sans-serif;
     right: 0px;
     top:2px;
@@ -123,14 +122,13 @@ p{
 .texto-contacto{
     display:inline-block;
     width: 854px;
-    background-color: rgb(225, 255, 0);
+    /* background-color: rgb(225, 255, 0); */
     padding: 20px;
     margin-top: 0;
     position: relative;
-    
     font-family: 'Roboto', sans-serif;
     right: -160px;
-    top:-207px;
+    top:-187px;
     left:161px;
 }
 .mailto{
