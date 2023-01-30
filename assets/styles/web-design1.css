@@ -61,12 +61,12 @@ nav{
     top:0px;
     font-family: 'Roboto', sans-serif;
 }
-.nav-about{
+.navabout2{
     display: inline-block;
     width: 160px;
     /* background-color: blue; */
     position:relative;
-    top:-82px;
+    top:-64px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -100,7 +100,7 @@ p{
 
 .texto{
     display:inline-block;
-    width: 854px;
+    width: 830px;
     /* background-color: rgb(225, 255, 0); */
     padding: 20px;
     margin-top: 0;
@@ -123,17 +123,17 @@ p{
     top:2px;
     left:13px;
 }
-.texto-contacto{
+.contactext{
     display:inline-block;
-    width: 854px;
+    width: 792px;
     /* background-color: rgb(225, 255, 0); */
     padding: 20px;
     margin-top: 0;
     position: relative;
     font-family: 'Roboto', sans-serif;
-    right: -160px;
-    top:-187px;
-    left:161px;
+    right: 0px;
+    top: -156px;
+    left: 262px;
 }
 .mailto{
     display: inline;
