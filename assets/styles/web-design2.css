@@ -18,10 +18,6 @@
         top:109px;
     }
     
-    /* header{
-        background-color: rgba(91, 95, 22, 0.751);
-        
-    } */
     
     h1{
         position:absolute;
@@ -112,36 +108,21 @@
         top:0px;
         left:13px;
     }
-    #about-dis2{
-        display:inline-block;
-        width: 854px;
-        /* background-color: rgb(225, 255, 0); */
-        padding: 20px;
-        margin-top: 0;
-        position: relative;
-        font-family: 'Roboto', sans-serif;
-        right: 0px;
+    .aboutext{
         top: 119px;
-    left: 215px;
+     left: 215px;
     }
     
-    .home{
+    .hometext{
         right: 0px;
         top:110px;
         left:244px;
     }
-    
-    .texto-contacto{
-        display:inline-block;
-        width: 854px;
-        /* background-color: rgb(225, 255, 0); */
-        padding: 20px;
-        margin-top: 0;
-        position: relative;
-        font-family: 'Roboto', sans-serif;
+
+    .contactext{
         right: -160px;
         top: 145px;
-    left: 242px;
+        left: 242px;
     }
     
     .mailto{
