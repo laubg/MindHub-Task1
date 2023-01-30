@@ -21,7 +21,7 @@ main{
     height: 558px;
 }
 .m1_3{
-    height: 534px;
+    height: 528px;
 }
 .m2{
     height: 551px;
@@ -59,7 +59,7 @@ main{
 
     .contactimg{
         top: 156px;
-    right: -850px;
+        right: -604px;
     }
     
     .banner{
@@ -201,8 +201,8 @@ main{
     }
     .contactext{
         font-size: 20px;
-        top: -44px;
-        left: 266px;
+    top: -32px;
+    left: 68px;
     }
     
     .mailto{
