@@ -3,6 +3,7 @@
     padding:0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    color:#1a1811c7;
     }
 section{
     height: 543px;
@@ -152,7 +153,6 @@ main{
     }
     
     h2{
-    color: black;
     background-color: white;
     text-align: center;
     display: inline-block;
