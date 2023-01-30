@@ -8,8 +8,19 @@
     .img{
         display: inline-block;
         position: relative;
-        top: 137px;
-        right: -810px;
+        top: 211px;
+        right: -808px;
+    }
+
+    .about{
+        top: 167px;
+        right: -865px;
+    
+    }
+
+    .contact{
+        top: 156px;
+    right: -850px;
     }
     
     .banner{
