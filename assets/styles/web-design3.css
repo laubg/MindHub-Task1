@@ -20,11 +20,15 @@ section{
 main{
     height: 558px;
 }
-.m1_3{
-    height: 528px;
+
+.m1{
+    height: 534px;
 }
 .m2{
     height: 551px;
+}
+.m3{
+    height: 528px;
 }
     .background{
         position: relative;
