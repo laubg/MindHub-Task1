@@ -7,6 +7,7 @@ acorde a Chrome). */
     padding:0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    color:#1a1811c7;
     }
     
     .img{
@@ -40,7 +41,7 @@ acorde a Chrome). */
     .logo{
        position: absolute;
        top: 866px;
-       right: 87%;
+       right: 90%;
        height: 155px;
        background-color: white;
        /* border: 1px black solid; */
