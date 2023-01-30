@@ -6,7 +6,10 @@
     }
     
     .img{
-        display: none;
+        display: inline-block;
+        position: relative;
+        top: 137px;
+        right: -810px;
     }
     
     .banner{
@@ -19,7 +22,9 @@
     }
     
     /* header{
-        background-color: rgba(91, 95, 22, 0.751);
+        background-color: rgb(31 31 27 / 75%);
+        position: relative;
+        top: 20px;
         
     } */
     
@@ -31,9 +36,9 @@
         -webkit-text-stroke: 1px #D98D30;
         text-shadow: -4px 3px 1px #63A69A;
         display:block;
-        padding-left: 50px;
+        padding: 0px 0px 10px 50px;
         font-family: 'Oswald', sans-serif;
-        background-color:white;
+        background-color:#ffffffc7;
         padding-right: 20px;
     }
     
