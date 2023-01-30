@@ -60,14 +60,7 @@
         
     }
 
-    .nav-about{
-        display: inline-block;
-        width: 160px;
-        /* background-color: blue; */
-        position:relative;
-        top:-82px;
-        font-family: 'Roboto', sans-serif;
-    }
+   
     
     a{
         display: inline-block;
@@ -119,6 +112,18 @@
         top:0px;
         left:13px;
     }
+    #about-dis2{
+        display:inline-block;
+        width: 854px;
+        /* background-color: rgb(225, 255, 0); */
+        padding: 20px;
+        margin-top: 0;
+        position: relative;
+        font-family: 'Roboto', sans-serif;
+        right: 0px;
+        top: 119px;
+    left: 215px;
+    }
     
     .texto-home{
         display:inline-block;
@@ -143,6 +148,10 @@
         right: -160px;
         top:-187px;
         left:161px;
+    }
+    .{
+        top: 119px;
+    left: 215px;
     }
     .mailto{
         display: inline;
