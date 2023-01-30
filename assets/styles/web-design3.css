@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    }
+    
+    .img{
+        display: none;
+    }
+    
+    .banner{
+        width: 100%;
+        z-index: -1;
+        position: relative;
+        height: 684px;
+        object-fit: cover;
+        top:109px;
+    }
+    
+    /* header{
+        background-color: rgba(91, 95, 22, 0.751);
+        
+    } */
+    
+    h1{
+        position:absolute;
+        top:374px;
+        font-size: 70px;
+        color: #F2D230;
+        -webkit-text-stroke: 1px #D98D30;
+        text-shadow: -4px 3px 1px #63A69A;
+        display:block;
+        padding-left: 50px;
+        font-family: 'Oswald', sans-serif;
+        background-color:white;
+        padding-right: 20px;
+    }
+    
+    .logo{
+       position: absolute;
+       top: 4px;
+       right: 92%;
+       height: 96px;
+       background-color: white;
+       /* border: 1px black solid; */
+    }
+    
+    
+    
+    nav{
+        display: inline;
+        width: 377px;
+        /* background-color: blue; */
+        position:absolute;
+        top:17px;
+        font-family: 'Roboto', sans-serif;
+        right: 30px;
+        height: 15px;
+        
+    }
+
+   
+    
+    a{
+        display: inline-block;
+        height: 36px; 
+        background-color: #63a69a;  
+        margin-top: 18px;
+        padding: 5px 18px;
+        border: black 1px solid;
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        margin-left: 5px;
+       }
+       
+    .link{
+        background-color: #F2D230;  
+    }
+    
+    h2{
+    color: white;
+    background-color: black;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    position:relative;
+    top:106px;
+    }
+    
+    p{
+        text-indent: 15px;
+        padding: 5px 0px 10px;
+        font-family: 'Roboto', sans-serif;
+        display:inline-block;
+        width: 100%;
+    }
+    
+    
+    .texto{
+        display:inline-block;
+        width: 854px;
+        /* background-color: rgb(225, 255, 0); */
+        padding: 20px;
+        margin-top: 0;
+        position: relative;
+        font-family: 'Roboto', sans-serif;
+        right: 0px;
+        top:0px;
+        left:13px;
+    }
+    #about-dis2{
+        display:inline-block;
+        width: 854px;
+        /* background-color: rgb(225, 255, 0); */
+        padding: 20px;
+        margin-top: 0;
+        position: relative;
+        font-family: 'Roboto', sans-serif;
+        right: 0px;
+        top: 119px;
+    left: 215px;
+    }
+    
+    .texto-home{
+        display:inline-block;
+        width: 854px;
+        /* background-color: rgb(225, 255, 0); */
+        padding: 20px;
+        margin-top: 0;
+        position: relative;
+        font-family: 'Roboto', sans-serif;
+        right: 0px;
+        top:110px;
+        left:244px;
+    }
+    .texto-contacto{
+        display:inline-block;
+        width: 854px;
+        /* background-color: rgb(225, 255, 0); */
+        padding: 20px;
+        margin-top: 0;
+        position: relative;
+        font-family: 'Roboto', sans-serif;
+        right: -160px;
+        top: 145px;
+    left: 242px;
+    }
+    
+    .mailto{
+        display: inline;
+        padding: 0px;
+        text-decoration: currentcolor;
+        color: #D98D30;
+        background-color: transparent ;  
+        border: transparent 1px solid;
+        font-size: medium;
+    }
