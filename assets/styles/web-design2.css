@@ -27,7 +27,7 @@ acorde a Chrome). */
     h1{
         position:absolute;
         top:0px;
-        font-size: 70px;
+        font-size: 55px;
         color: #F2D230;
         -webkit-text-stroke: 1px #D98D30;
         text-shadow: -4px 3px 1px #63A69A;
@@ -41,8 +41,8 @@ acorde a Chrome). */
     .logo{
        position: absolute;
        top: 866px;
-       right: 90%;
-       height: 155px;
+       right: 82%;
+       height: 145px;
        background-color: white;
        /* border: 1px black solid; */
     }
@@ -103,7 +103,7 @@ acorde a Chrome). */
     
     .texto{
         display:inline-block;
-        width: 854px;
+        width: 772px;
         /* background-color: rgb(225, 255, 0); */
         padding: 20px;
         margin-top: 0;
