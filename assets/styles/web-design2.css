@@ -139,3 +139,16 @@ acorde a Chrome). */
         border: transparent 1px solid;
         font-size: medium;
     }
+
+    .background{
+        display: none;
+    }
+    .backbanner{
+        display: none;
+    }
+    aside{
+        display: none;
+    }
+    footer{
+        display: none;
+    }
