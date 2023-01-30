@@ -4,7 +4,26 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     }
+section{
+    height: 543px;
+}
 
+.s2{
+    height: 368px;
+}
+.s3{
+    height: 525px;
+}
+
+main{
+    height: 558px;
+}
+.m1_3{
+    height: 512px;
+}
+.m2{
+    height: 551px;
+}
     .background{
         position: relative;
         background-color: #f2d230c7;
@@ -49,6 +68,21 @@
         object-fit: cover;
         top:109px;
     }
+    .backbanner{
+        position: relative;
+        background-color: #1a1811c7;
+        z-index: 0;
+        height: 685px;
+        top: -1447px;
+    }
+
+    .backabout{
+        top: -1349px;
+    }
+
+    .backcontact{
+        top: -1344px;
+    }
     
     /* header{
         background-color: rgb(31 31 27 / 75%);
@@ -67,8 +101,9 @@
         display:block;
         padding: 0px 0px 10px 50px;
         font-family: 'Oswald', sans-serif;
-        background-color:#ffffffc7;
+        background-color:#ffffff;
         padding-right: 20px;
+        z-index: +1;
     }
     
     .logo{
@@ -117,8 +152,8 @@
     }
     
     h2{
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: white;
     text-align: center;
     display: inline-block;
     width: 100%;
@@ -180,3 +215,28 @@
         border: transparent 1px solid;
         font-size: medium;
     }
+
+    footer{
+        text-align: center;
+        height: 75px;
+        background-color: white;
+        padding: 18px;
+        color: #63A69A;
+    }
+    .footer2{
+        padding-top: 22px;
+        height: 94px;
+    }
+    
+    aside{
+        background-color: #1a1811c7;
+    }
+    .asidenav{
+        display: inline;
+        position:relative;
+        top:-10px;       
+        right: -499px;
+        height: 26px;        
+    }
+    
+
