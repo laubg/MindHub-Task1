@@ -210,7 +210,7 @@ main{
     .mailto{
         display: inline;
         padding: 0px;
-        text-decoration: currentcolor;
+        text-decoration: underline;
         color: #D98D30;
         background-color: transparent ;  
         border: transparent 1px solid;
