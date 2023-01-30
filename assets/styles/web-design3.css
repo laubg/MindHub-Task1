@@ -4,6 +4,24 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     }
+
+    .background{
+        position: relative;
+        background-color: #f2d230c7;
+        z-index: -1;
+        height: 359px;
+        top: -356px;
+        
+    }
+
+    .aboutback{
+        height: 401px;
+        top: -218px;
+    }
+    .contactback{
+        height: 361px;
+        top: -254px;
+    }
     
     .img{
         display: inline-block;
@@ -147,7 +165,7 @@
     .contactext{
         font-size: 20px;
         top: -44px;
-    left: 310px;
+        left: 266px;
     }
     
     .mailto{
