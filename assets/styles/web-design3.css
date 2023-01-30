@@ -98,19 +98,22 @@
     
     a{
         display: inline-block;
-        height: 36px; 
-        background-color: #63a69a;  
+        height: 36px;  
         margin-top: 18px;
         padding: 5px 18px;
-        border: black 1px solid;
-        color: white;
-        text-decoration: none;
+        color: #63a69a;
         font-size: 20px;
         margin-left: 5px;
+        text-decoration: none;
        }
        
     .link{
-        background-color: #F2D230;  
+        color: #F2D230;  
+    }
+
+    a:hover{
+        transform:scale(1.1);
+        text-decoration: underline;
     }
     
     h2{
