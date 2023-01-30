@@ -1,3 +1,7 @@
+/* la ubicación de los elementos fue realizada con referencia a una pantalla de 
+1000px de ancho aproximadamente, en navegador Chrome (originalmente la realicé en Opera GX, pero
+toma un ancho mayor de pantalla y en Chrome se cambiaban los elementos de lugar, así que lo modifiqué 
+acorde a Chrome). */
 *{
     margin: 0;
     padding:0;
