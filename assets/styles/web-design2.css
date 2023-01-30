@@ -146,8 +146,8 @@
         position: relative;
         font-family: 'Roboto', sans-serif;
         right: -160px;
-        top:-187px;
-        left:161px;
+        top: 145px;
+    left: 242px;
     }
     .{
         top: 119px;
@@ -156,4 +156,9 @@
     .mailto{
         display: inline;
         padding: 0px;
+        text-decoration: currentcolor;
+        color: #D98D30;
+        background-color: transparent ;  
+        border: transparent 1px solid;
+        font-size: medium;
     }
