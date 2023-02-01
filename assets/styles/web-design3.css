@@ -42,7 +42,7 @@ figure{
  
  nav{
     display:inline-flex;
-    width: 278px;
+    width: 319px;
      /* background-color: blue; */
     font-family: 'Roboto', sans-serif;
     height: auto;
@@ -59,7 +59,7 @@ figure{
      padding: 5px 18px; */
      color: #63a69a;
      font-size: 18px;
-     margin-left: 5px;
+     margin-left: 15px;
      text-decoration: none;
     }
     .link{
@@ -105,7 +105,7 @@ main{
 section{
     height: auto;
     width: auto;
-    background-color: #f2d230c7;
+    background-color: #f2d230b3;
 }
 h2{
     background-color: white;
@@ -124,10 +124,27 @@ h2{
 }
 
 .texto{
-    background-color: rgb(225, 255, 0);
+    /* background-color: rgb(225, 255, 0); */
     padding: 30px 25px;
     margin-top: 0;
     max-width: 590px;
+}
+p{
+    text-indent: 15px;
+    padding: 5px 0px 10px;
+    /* display:inline-block; */
+    width: 100%;
+}
+
+.mailto{
+    display: inline;
+    padding: 0px;
+    margin: 0;
+    text-decoration: underline;
+    color: #D98D30;
+    /* background-color: transparent ;   */
+    /* border: transparent 1px solid; */
+    font-size: 15px;
 }
 
 .imgbody img{
