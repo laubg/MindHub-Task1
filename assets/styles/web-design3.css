@@ -12,7 +12,7 @@ acorde a Chrome). */
 
 /* Header */
 header{
-    height:600px;
+    height:543px;
     
     
 }
@@ -70,10 +70,36 @@ figure{
     filter: brightness(70%);
 }
 
+h1{
+    position:absolute;
+    top:209px;
+    font-size: 55px;
+    color: #F2D230;
+    -webkit-text-stroke: 1px #D98D30;
+    text-shadow: -4px 3px 1px #63A69A;
+    display:block;
+    padding: 0px 0px 10px 50px;
+    font-family: 'Oswald', sans-serif;
+    background-color:#ffffffbd;
+    padding-right: 20px;
+    z-index: +1;
+}
+h1:hover{
+    transform: translateX(2px);
+    scale: 1.1;
+}
+
 /* Main */
 main{
     height:auto;
 }
+section{
+    height: auto;
+    width: auto;
+    background-color: #f2d230c7;
+}
+
+
 /* aside */
 aside{
     height: 50px;
