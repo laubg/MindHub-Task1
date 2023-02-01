@@ -32,7 +32,8 @@ figure{
     display: inline-block;
     height: 15vh;
     width: fit-content;
-    background-color: rgb(177, 55, 55);
+    /* background-color: rgb(177, 55, 55); */
+    padding-left: 23px;
     /* border: 1px black solid; */
  }
  
@@ -40,7 +41,7 @@ figure{
  
  nav{
     display: inline;
-    width: 377px;
+    width: 356px;
      /* background-color: blue; */
     font-family: 'Roboto', sans-serif;
     height: auto;
