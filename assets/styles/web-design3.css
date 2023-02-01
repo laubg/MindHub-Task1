@@ -62,7 +62,10 @@ figure{
     .link{
         color: #F2D230;  
     }
-
+    a:hover{
+        transform:scale(1.1);
+        text-decoration: underline;
+    }
 
     
 .banner{
@@ -101,8 +104,33 @@ section{
     width: auto;
     background-color: #f2d230c7;
 }
+h2{
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    width: 100%;
+    padding: 12px;
+    /* position:relative;
+    top:-148px; */
+    }
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
+.texto{
+    background-color: rgb(225, 255, 0);
+    padding: 30px 25px;
+    margin-top: 0;
+    max-width: 590px;
+}
 
+.imgbody img{
+    height: 200px;
+    margin: 15px 10px;
+}
 /* aside */
 aside{
     height: 50px;
