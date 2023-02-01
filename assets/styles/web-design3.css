@@ -19,9 +19,10 @@ header{
 
 .barranav{
     background-color: white;
-    height: 15vh;
+    height: 17vh;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }  
 
 figure{
@@ -40,11 +41,13 @@ figure{
  
  
  nav{
-    display: inline;
-    width: 356px;
+    display:inline-flex;
+    width: 278px;
      /* background-color: blue; */
     font-family: 'Roboto', sans-serif;
     height: auto;
+    justify-content: center;
+
   
  }
 
@@ -52,8 +55,8 @@ figure{
  
  a{
      display: inline-block; 
-     margin-top: 4px;
-     padding: 5px 18px;
+     /* margin-top: 4px;
+     padding: 5px 18px; */
      color: #63a69a;
      font-size: 18px;
      margin-left: 5px;
