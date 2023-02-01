@@ -19,7 +19,8 @@ color:#1a1811c7;
     width: 100%;
     z-index: -1;
     position: relative;
-    height: 684px;
+    /* height: 684px; */
+    height: max-content;
     object-fit: cover;
 }
 
