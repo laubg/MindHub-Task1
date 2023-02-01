@@ -110,6 +110,7 @@ section{
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .subtitulo{
@@ -178,7 +179,11 @@ aside{
 }
 /* Footer */
 footer{
-    height: 25px;
+    text-align: center;
+    height: 75px;
+    background-color: white;
+    padding: 18px;
+    color: #63A69A;
 }
 
 
