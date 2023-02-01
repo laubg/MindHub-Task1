@@ -39,28 +39,30 @@ figure{
  
  
  nav{
-     display: inline;
-     width: 377px;
-     background-color: blue;
-     
-     font-family: 'Roboto', sans-serif;
-    
-     height: 15px;
-     
+    display: inline;
+    width: 377px;
+     /* background-color: blue; */
+    font-family: 'Roboto', sans-serif;
+    height: auto;
+  
  }
 
 
  
  a{
-     display: inline-block;
-     height: 36px;  
-     margin-top: 18px;
+     display: inline-block; 
+     margin-top: 4px;
      padding: 5px 18px;
      color: #63a69a;
-     font-size: 20px;
+     font-size: 18px;
      margin-left: 5px;
      text-decoration: none;
     }
+    .link{
+        color: #F2D230;  
+    }
+
+
     
 .banner{
     width: 100%;
