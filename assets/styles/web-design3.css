@@ -138,6 +138,16 @@ h2{
     align-content: space-evenly;
     margin: 10px 20px;
 }
+
+.game{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    margin: 10px 20px;
+}
 .subtitcentrado{
     text-align: center;
     padding-top: 10px;
@@ -186,10 +196,16 @@ p{
     height: 200px;
     margin: 15px 10px;
 }
-.imggame img{
+
+.info{
     width: 75% ;
-    align-content: center;
-    display: block;
+    justify-content: center;
+}
+.imggame{
+    width: 75% ;
+    justify-content: center;
+    display: inline-flex;
+    margin: 18px 0px 38px 0px;
 }
 
 /* Listas -------------------------*/
@@ -224,7 +240,7 @@ table{
     table-layout: fixed;
     width: 75%;
     border-collapse: collapse;
-    border: 3px solid purple;
+    /* border: 3px solid purple; */
     text-align: center;
     margin: 10px 0px;;
 }
