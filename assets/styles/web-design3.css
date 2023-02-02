@@ -164,12 +164,25 @@ p{
 }
 ul,ol {
     list-style-position: inside;
+    font-weight:bold ;
   }
 
+span{
+    font-weight: normal;
+}
 li{
     padding-top: 8px;
+   
 }
 
+.listaabc{
+    list-style: lower-alpha;
+    list-style-position: inside;
+    padding-left: 5px;
+}
+.listacirculo{    
+    list-style-position: inside;
+}
 .mailto{
     display: inline;
     padding: 0px;
