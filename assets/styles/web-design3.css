@@ -128,25 +128,46 @@ h2{
     /* position:relative;
     top:-148px; */
     }
+
+
 .content{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
     align-content: space-evenly;
+    margin: 10px 20px;
+}
+.subtitcentrado{
+    text-align: center;
+    padding-top: 10px;
 }
 
+.rules{
+    text-align:justify;
+    padding: 10px 16px;
+}
 .texto{
     /* background-color: rgb(225, 255, 0); */
     padding: 30px 25px;
     margin-top: 0;
     max-width: 590px;
 }
+article{
+    padding: 10px 0px;
+}
 p{
     text-indent: 15px;
     padding: 5px 0px 10px;
     /* display:inline-block; */
     width: 100%;
+}
+ul,ol {
+    list-style-position: inside;
+  }
+
+li{
+    padding-top: 8px;
 }
 
 .mailto{
