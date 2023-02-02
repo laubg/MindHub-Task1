@@ -186,6 +186,11 @@ p{
     height: 200px;
     margin: 15px 10px;
 }
+.imggame img{
+    width: 75% ;
+    align-content: center;
+    display: block;
+}
 
 /* Listas -------------------------*/
 ul,ol {
@@ -251,6 +256,14 @@ thead th:nth-child(1) {
 }
 .tabinfo{
 
+}
+.tel{
+float: right;
+width: 50%;
+}
+.mail{
+float: left;
+width: 50%;
 }
 
 /* aside */
