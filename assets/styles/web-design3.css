@@ -144,9 +144,11 @@ h2{
 }
 .subtitside{
     text-align:left;
-    padding-top: 10px;
+    padding: 10px 0px;
     text-decoration: underline;
     font-style: italic;
+    width: 75%;
+    text-indent: 0%;
 }
 
 .rules{
@@ -168,6 +170,24 @@ p{
     /* display:inline-block; */
     width: 100%;
 }
+
+.mailto{
+    display: inline;
+    padding: 0px;
+    margin: 0;
+    text-decoration: underline;
+    color: #D98D30;
+    /* background-color: transparent ;   */
+    /* border: transparent 1px solid; */
+    font-size: 15px;
+}
+
+.imgbody img{
+    height: 200px;
+    margin: 15px 10px;
+}
+
+/* Listas -------------------------*/
 ul,ol {
     list-style-position: inside;
     font-weight:bold ;
@@ -192,21 +212,47 @@ li{
 .listacirculo{    
     padding-top: 0px;
 }
-.mailto{
-    display: inline;
-    padding: 0px;
-    margin: 0;
-    text-decoration: underline;
-    color: #D98D30;
-    /* background-color: transparent ;   */
-    /* border: transparent 1px solid; */
-    font-size: 15px;
+
+/* Tablas -------------------------------*/
+
+table{
+    table-layout: fixed;
+    width: 75%;
+    border-collapse: collapse;
+    border: 3px solid purple;
+    text-align: center;
+    margin: 10px 0px;;
+}
+thead th:nth-child(1) {
+    width: 20%;
+  }
+  
+  thead th:nth-child(2) {
+    width: 20%;
+  }
+  
+  thead th:nth-child(3) {
+    width: 30%;
+  }
+  
+  thead th:nth-child(4) {
+    width: 20%;
+  }
+  
+  th, td {
+    padding: 11px;
+  }
+  thead th {
+    font-weight: bold;
+    font-size: 16px;
+  }
+.tabhorarios{
+
+}
+.tabinfo{
+
 }
 
-.imgbody img{
-    height: 200px;
-    margin: 15px 10px;
-}
 /* aside */
 aside{
     height: 50px;
