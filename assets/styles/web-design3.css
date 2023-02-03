@@ -46,9 +46,7 @@ figure{
      /* background-color: blue; */
     font-family: 'Roboto', sans-serif;
     height: auto;
-    justify-content: center;
-
-  
+    justify-content: center;  
  }
 
 
@@ -74,10 +72,10 @@ figure{
 .banner{
     width: 100%;
     z-index: -1;
-    /* height: 500px; */
+    height: 500px;
     object-fit: cover;    
     filter: brightness(70%);
-    height: 100vh;
+    min-height: 87vh;
 }
 
 h1{
@@ -152,9 +150,15 @@ h2{
     text-align: center;
     padding-top: 10px;
 }
+.flecha{
+    display:inline-block;
+    position: relative;
+    right: 395px;
+    top:17px;
+}
 .subtitside{
     text-align:left;
-    padding: 10px 0px;
+    padding: 10px 18px;
     text-decoration: underline;
     font-style: italic;
     width: 75%;
@@ -201,6 +205,9 @@ p{
     width: 75% ;
     justify-content: center;
 }
+.info p{
+    text-indent: 0%;
+}
 .imggame{
     width: 75% ;
     justify-content: center;
@@ -228,6 +235,7 @@ li{
     list-style: lower-alpha;
     list-style-position: inside;
     line-height: 0.5;
+    text-indent: 15px;
 }
 
 .listacirculo{    
@@ -267,12 +275,7 @@ thead th:nth-child(1) {
     font-weight: bold;
     font-size: 16px;
   }
-.tabhorarios{
 
-}
-.tabinfo{
-
-}
 .tel{
 float: right;
 width: 50%;
