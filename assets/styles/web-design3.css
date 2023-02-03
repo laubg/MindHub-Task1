@@ -311,6 +311,34 @@ footer{
     padding: 18px;
     color: #63A69A;
 }
+/* Botón */
+.join-us {
+    background-color: #faa43b;
+    font-size: 16px;
+    border: #ba78275c 1px solid;
+    cursor:pointer;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 26px;
+    color: white;
+    margin: 20px 0px 64px 0px;
+    text-decoration: none;
+    
+}
 
+.button-link{
+    color: white;
+    font-size: 16px;
+    margin-left: 0px;
+}
 
-
+.button-link:hover{
+    transform: scale(1);  
+    text-decoration: none;
+}
+.join-us:hover{
+transform: scale(1.1);
+box-shadow:-4px 3px 1px #63a69a;
+background-color:#fbad4d;
+/* color: #faa43b; */
+}
