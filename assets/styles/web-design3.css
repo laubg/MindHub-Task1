@@ -53,12 +53,15 @@ figure{
      /* margin-top: 4px;
      padding: 5px 18px; */
      color: #63a69a;
-     font-size: 18px;
+     font-size: 15px;
      margin-left: 15px;
      text-decoration: none;
     }
     .link{
         color: #F2D230;  
+    }
+    .joinlink{
+        color:#D98D30;
     }
     a:hover{
         transform:scale(1.1);
@@ -230,7 +233,7 @@ li{
 .listaabc{
     list-style: lower-alpha;
     list-style-position: inside;
-    line-height: 0.5;
+    /* line-height: 0.5; */
     text-indent: 15px;
 }
 
