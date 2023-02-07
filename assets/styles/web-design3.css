@@ -345,3 +345,33 @@ box-shadow:-4px 3px 1px #63a69a;
 background-color:#fbad4d;
 /* color: #faa43b; */
 }
+/* Formulario */
+form{
+    width: 75%;
+    margin: 36px 0px;
+}
+fieldset{
+    display: block;
+    margin-inline-start: 0px;
+    margin-inline-end: 2px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 0;
+    padding-inline-end: 0.75em;
+    padding-block-end: 0.625em;
+    min-inline-size: min-content;
+    border-width: 2px;
+    border-style: groove;
+    /* border-color: transparent; */
+    border-image: initial;
+}
+
+legend{
+    font-weight: bold;
+}
+
+.text-input{
+    border-top-color: transparent;
+    border-right-color: transparent;
+    /* border-bottom-color: ; */
+    border-left-color: transparent;
+}
