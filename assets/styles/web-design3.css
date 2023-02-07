@@ -375,3 +375,10 @@ legend{
     /* border-bottom-color: ; */
     border-left-color: transparent;
 }
+
+.radio-input{
+    padding: 1px 5px;
+    border-width: 2px;
+    margin-right: 8px;
+   
+}
