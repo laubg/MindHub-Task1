@@ -37,7 +37,7 @@
     <main>
         <section>
             <h2>Registration Form</h2>
-            <form>
+            <form action="show_data.html" method="get">
                 <fieldset>
                     <label><b>Player´s First Name: </b><input type="text" name="nombre" id="nombre" class="text-input"></label>
                     <label><b>Last Name: </b><input type="text" name="apellido" id="apellido" class="text-input"></label>
@@ -52,9 +52,9 @@
                 <fieldset>
                     <label><b>Birth Date (mm/dd/yyyy): </b><input type="text" name="birth-date" id="birth-date" class="text-input"></label>
         
-                    <label for="gender"><b>Gender: </b> Female <input type="radio" name="gender" id="female" class="radio-input"></label>
-                    <label for="gender">Male <input type="radio" name="gender" id="male" class="radio-input"></label>
-                    <label for="gender">Nonbinary <input type="radio" name="gender" id="nonbinary" class="radio-input"></label>
+                    <label><b>Gender: </b> Female <input type="radio" name="gender" id="female" class="radio-input" value="female"></label>
+                    <label>Male <input type="radio" name="gender" id="male" class="radio-input" value="male"></label>
+                    <label>Nonbinary <input type="radio" name="gender" id="nonbinary" class="radio-input" value="nonbinary"></label>
                     <!-- <label for="gender">Gender:   Female </label>
                     <input type="radio"  name="female" id="gender">
                     <label for="gender">Male </label>
@@ -64,23 +64,23 @@
                 </fieldset>
                 <fieldset>
                     <legend>Grade</legend>
-                    <label>Pre-School <input type="radio" name="grade" id="pre-s" class="radio-input"></label>
-                    <label>1st <input type="radio" name="grade" id="1st" class="radio-input"></label>
-                    <label>2nd <input type="radio" name="grade" id="2nd" class="radio-input"></label>
-                    <label>3rd <input type="radio" name="grade" id="3rd" class="radio-input"></label>
-                    <label>4th <input type="radio" name="grade" id="4th" class="radio-input"></label>
-                    <label>5th <input type="radio" name="grade" id="5th" class="radio-input"></label>
+                    <label>Pre-School <input type="radio" name="grade" id="pre-s" class="radio-input" value="pre-s"></label>
+                    <label>1st <input type="radio" name="grade" id="1st" class="radio-input" value="1st"></label>
+                    <label>2nd <input type="radio" name="grade" id="2nd" class="radio-input" value="2nd"></label>
+                    <label>3rd <input type="radio" name="grade" id="3rd" class="radio-input" value="3rd"></label>
+                    <label>4th <input type="radio" name="grade" id="4th" class="radio-input" value="4th"></label>
+                    <label>5th <input type="radio" name="grade" id="5th" class="radio-input" value="5th"></label>
                 </fieldset>
                 <br>
                 <h3>Witch elementary school do you live near?</h3>
                 <fieldset>
                     <legend>Closest School: </legend>
-                    <label>AJ Katzenmaier <input type="radio" name="clo-school" id="Katzenmaier" class="radio-input"></label>
-                    <label>Greenbay <input type="radio" name="clo-school" id="Greenbay" class="radio-input"></label>
-                    <label>Howard A Yeager <input type="radio" name="clo-school" id="Yeager" class="radio-input"></label>
-                    <label>Marjorie P Hart <input type="radio" name="clo-school" id="Hart" class="radio-input"></label>
-                    <label>North Elementary <input type="radio" name="clo-school" id="NorthE" class="radio-input"></label>
-                    <label>South Elementary <input type="radio" name="clo-school" id="SouthE" class="radio-input"></label>
+                    <label>AJ Katzenmaier <input type="radio" name="clo-school" id="Katzenmaier" class="radio-input" value="Katzenmaier"></label>
+                    <label>Greenbay <input type="radio" name="clo-school" id="Greenbay" class="radio-input" value="Greenbay"></label>
+                    <label>Howard A Yeager <input type="radio" name="clo-school" id="Yeager" class="radio-input" value="Yeager"></label>
+                    <label>Marjorie P Hart <input type="radio" name="clo-school" id="Hart" class="radio-input" value="Hart"></label>
+                    <label>North Elementary <input type="radio" name="clo-school" id="NorthE" class="radio-input" value="NorthE"></label>
+                    <label>South Elementary <input type="radio" name="clo-school" id="SouthE" class="radio-input" value="SouthE"></label>
                 </fieldset>
                 <fieldset>
                     <legend>What position(s) do you normally play? (check all that apply)</legend>
@@ -91,13 +91,13 @@
                 </fieldset>
                 <fieldset>
                     <legend>Uniform Size:</legend>
-                    <label>Youth Small <input type="radio" name="uniform-size" id="Y-S" class="radio-input"></label>
-                    <label>Youth Medium <input type="radio" name="uniform-size" id="Y-M" class="radio-input"></label>
-                    <label>Youth Large <input type="radio" name="uniform-size" id="Y-L" class="radio-input"></label>
-                    <label>Small <input type="radio" name="uniform-size" id="S" class="radio-input"></label>
-                    <label>Medium <input type="radio" name="uniform-size" id="M" class="radio-input"></label>
-                    <label>Large <input type="radio" name="uniform-size" id="L" class="radio-input"></label>
-                    <label>Extra-Large <input type="radio" name="uniform-size" id="E-L" class="radio-input"></label>
+                    <label>Youth Small <input type="radio" name="uniform-size" id="Y-S" class="radio-input" value="Y-S"></label>
+                    <label>Youth Medium <input type="radio" name="uniform-size" id="Y-M" class="radio-input" value="Y-M"></label>
+                    <label>Youth Large <input type="radio" name="uniform-size" id="Y-L" class="radio-input" value="Y-L"></label>
+                    <label>Small <input type="radio" name="uniform-size" id="S" class="radio-input" value="S"></label>
+                    <label>Medium <input type="radio" name="uniform-size" id="M" class="radio-input" value="M"></label>
+                    <label>Large <input type="radio" name="uniform-size" id="L" class="radio-input" value="L"></label>
+                    <label>Extra-Large <input type="radio" name="uniform-size" id="E-L" class="radio-input" value="E-L"></label>
                 </fieldset>
                 <br>
                 <h4>Permission to Play</h4>
