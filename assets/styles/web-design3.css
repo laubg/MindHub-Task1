@@ -361,7 +361,7 @@ fieldset{
     min-inline-size: min-content;
     border-width: 2px;
     border-style: groove;
-    /* border-color: transparent; */
+    border-color: transparent;
     border-image: initial;
 }
 
@@ -381,4 +381,12 @@ legend{
     border-width: 2px;
     margin-right: 8px;
    
+}
+
+.send-input{
+    display:flex;
+    padding: 7px;
+    border-radius: 16px;
+    margin: auto;
+    margin-top: 25px;
 }
