@@ -7,11 +7,9 @@
     color:#1a1811c7;
 }
 
-/* Header */
+/* Header------------------------------------------------------------------------------------ */
 header{
-    height:543px;
-    
-    
+    height:543px;    
 }
 
 .barranav{
@@ -96,7 +94,7 @@ h1:hover{
     transform: translateX(2px) scale(1.1);
 }
 
-/* Main */
+/* Main --------------------------------------------------------------------------------------*/
 main{
     height:auto;
 }
@@ -214,7 +212,7 @@ p{
     margin: 18px 0px 38px 0px;
 }
 
-/* Listas -------------------------*/
+/* Listas ----------------------------------------------------------------------------*/
 ul,ol {
     list-style-position: inside;
     font-weight:bold ;
@@ -244,7 +242,7 @@ li{
     list-style-position: inside;
 }
 
-/* Tablas -------------------------------*/
+/* Tablas ---------------------------------------------------------------------------*/
 
 table{
     table-layout: fixed;
@@ -393,4 +391,39 @@ legend{
 
 .body-data{
     background-color: #fbad4d;
+}
+
+/* Resposive--------------------------------*/
+@media  (max-width: 620px){
+    a{
+        font-size: 12px;
+       }
+}
+
+@media (max-width:517px){
+    a{
+        font-size: 10px;
+       }
+}
+@media (max-width:435px){
+    a{
+        font-size: 8px;
+       }
+
+    .barranav{
+        height: 24vh;
+        flex-wrap: wrap;
+        justify-content: center;
+
+
+    } 
+    .subtitulo {
+        min-height: 10%;
+    }
+    
+    
+    
+    
+
+    
 }
